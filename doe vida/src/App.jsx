@@ -1,14 +1,12 @@
-import './App.css'
-
+import './App.css';
+import Tela_inicial from './Telaparatodos/Tela_inicial';
 
 function App() {
- 
-
-  return (
-    <>
-   
-    </>
-  )
+    return (
+        <>
+            <Tela_inicial />
+        </>
+    );
 }
 
-export default App
+export default App;

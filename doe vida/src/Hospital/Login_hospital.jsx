@@ -1,10 +1,10 @@
 import React from 'react'
-import './LoginH.css'
-function LoginHospital() {
+import './Login_hospital.css'
+function Login_hospital() {
   return (
     <div className='container-login'>
        <div className='form-image-login'>
-            <img src="./imagem da tela de login hospitalar.svg"/>
+            <img src="./img/login_hospital.png"/>
         </div>
         <div className='form-login'>
                 <div className='form-header-login'>
@@ -53,4 +53,4 @@ function LoginHospital() {
   )
 } 
 
-export default LoginHospital
+export default Login_hospital

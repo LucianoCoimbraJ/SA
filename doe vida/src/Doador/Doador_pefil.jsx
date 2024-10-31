@@ -1,11 +1,11 @@
 import React from 'react'
-import './PefilD.css'
-function DoadorPefil() {
+import './Pefil_doador.css'
+function Doador_pefil() {
   return (
     <div className='container"'>
       
         <div className='form-img'>
-            <img src="./imagem de tela de perfil - Doador.svg " alt=""/>
+            <img src="./img/imagem_de_perfil.png " alt=""/>
         </div>
         <div className='form'>
             <div classname='form-header'>
@@ -89,4 +89,4 @@ function DoadorPefil() {
   )
 }
 
-export default DoadorPefil
+export default Doador_pefil

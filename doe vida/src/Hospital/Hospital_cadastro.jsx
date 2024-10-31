@@ -1,12 +1,12 @@
 import React from 'react'
-import './CadastroH.css'
+import './Cadastro_hospital.css'
 
-function HospitalCadastro() {
+function Hospital_cadastro() {
   return (
     <div className='container-hospital'>
      
  <div className='form-image-hospital'>
-<img src="img/imagem da tela de cadastro hospitalar.svg"/>
+<img src="./img/cadastro_hospital.png"/>
 </div>
 <div className='form-hospital'>
     <div className='form-header-hospital'>
@@ -115,5 +115,5 @@ function HospitalCadastro() {
   )
 }
 
-export default HospitalCadastro
+export default Hospital_cadastro
 

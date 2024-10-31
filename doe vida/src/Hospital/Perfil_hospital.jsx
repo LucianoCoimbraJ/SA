@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from '../Navbar/NavBar'
+import './Perfil_hospital.css'
 
-function PerfilHospital() {
+function Perfil_hospital() {
   return (
    
     <div className='container-perfil'>
          <navBar/>
        <div className='form-img-perfil'>
-            <img src="./imagem de perfil - Hospital.svg " alt=""/>
+            <img src="./img/perfil_hospital.png" alt=""/>
         </div>
         <div className='form-perfil'>
             <div className='form-header-perfil'>
@@ -92,4 +93,4 @@ function PerfilHospital() {
   )
 }
 
-export default PerfilHospital
+export default Perfil_hospital

@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom"; 
-import Campanhas from "../telaparatodos/Campanhas";
-import Contato from "../telaparatodos/Contato";
-import Doacao from "../telaparatodos/Doacao";
-import Parceiros from "../telaparatodos/Parceiros";
-import TelaInicialT from "../telaparatodos/TelaInicialT";
+import Campanhas from "../Telaparatodos/Campanhas";
+import Contato from "../Telaparatodos/Contato";
+import Doacao from "../Telaparatodos/Doacao";
+import Parceiros from "../Telaparatodos/Parceiros";
+import TelaInicialT from "../Telaparatodos/Tela_inicial";
 
 
 const router = createBrowserRouter([

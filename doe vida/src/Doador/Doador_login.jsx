@@ -1,11 +1,11 @@
 import React from 'react'
-import './LoginD.css'
+import './Login_doador.css'
 
-function DoadorLogin() {
+function Doador_login() {
   return (
     <div className='container'>
       <div className='form-image'>
-        <img src="./imagem da tela de login.svg" alt="" />
+        <img src="./img/login_doador.png" alt="" />
       </div>
      <div className='form-header'>
      <div className='tittle'>
@@ -48,4 +48,4 @@ function DoadorLogin() {
   )
 }
 
-export default DoadorLogin
+export default Doador_login

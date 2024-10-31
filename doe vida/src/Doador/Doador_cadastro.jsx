@@ -1,11 +1,11 @@
 import React from 'react'
-import './CadastroD.css'
+import './Doador_cadastro.css'
 
-function DoadorCadastro() {
+function Doador_cadastro() {
   return (
     <div className='Container'>
       <div className='form-image'>
-        <img src="./imagem da tela de cadastro.svg" alt="" />
+        <img src="./img/cadastro_doador.png" alt="" />
         <div className='form'>
             <div className='form-header'>
                 <div className='title'> 
@@ -98,4 +98,4 @@ function DoadorCadastro() {
   )
 }
 
-export default DoadorCadastro
+export default Doador_cadastro
